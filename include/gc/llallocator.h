@@ -23,7 +23,7 @@ void *xmalloc(size_t size);
 void xfree(void *ptr);
 
 xheap_node *__alloc_xheap_node(size_t size, xheap_node *next);
-void __internal_ll_front_insert(xheap_node *root, xheap_node *new_node);
+void __internal_print();
 
 xheap_node *__alloc_xheap_node(size_t size, xheap_node *next) {
   xheap_node *node_mem = NULL;
