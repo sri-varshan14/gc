@@ -1,4 +1,4 @@
-#include "gc/llallocator.h"
+#include "gc/gc.h"
 #include <limits.h>
 #include <stdio.h>
 

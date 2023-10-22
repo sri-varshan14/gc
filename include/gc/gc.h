@@ -3,12 +3,9 @@
 
 #include "gc/gc.h"
 #include <stdbool.h>
-#include <stddef.h>
 #include <stdint.h>
 #include <stdio.h>
-#include <stdlib.h>
 #include <sys/mman.h>
-#include <threads.h>
 #include <unistd.h>
 
 typedef struct xheap_node {
