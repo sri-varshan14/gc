@@ -12,7 +12,7 @@
 #include <unistd.h>
 
 typedef struct xheap_node {
-  size_t size;
+  size_t size
   uintptr_t *mem_ptr;
   struct xheap_node *next;
   bool is_used;
@@ -25,6 +25,7 @@ static int cxheap_free_node = 0;
 uintptr_t *xmalloc(size_t size);
 void xfree(uintptr_t *ptr);
 void xheap_collect();
+
 
 xheap_node *__alloc_xheap_node(size_t size, xheap_node *next);
 void __internal_print();

@@ -5,7 +5,9 @@ project(gc)
 set(DEBUG on)
 set(C_FLAGS "-Wall -Wextra -pedantic")
 set(CMAKE_EXPORT_COMPILE_COMMANDS on)
+
 set(CMAKE_C_STANDARD 11)
+
 set(BUILD_SHARED_LIBS off)
 
 if(DEBUG)
